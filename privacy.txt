@@ -1,0 +1,13 @@
+! Title: Anti url-tracking 
+! Expires: 1 day
+! Description: A list I created to block tracking via urls
+! Url tracking 
+! utm - if someone has a better way to block those I will add it
+*$queryprune=utm_source
+*$queryprune=utm_campaign
+! more tracking
+*$queryprune=utm_medium
+! https://support.google.com/analytics/answer/4522476?hl=en
+*$queryprune=utm_id
+! Google url tracking
+google.*$document,queryprune=client
