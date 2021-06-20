@@ -1,3 +1,5 @@
+Note: This repo is outdated & nolonger needed. Please see https://github.com/iam-py-test/my_filters_001 for my filters
+
 # My filters
 This is a repo where I upload my filters. <br/>
 Feel free to use any and all of them (they are under no copyright) in [uBlock Origin](https://github.com/gorhill/uBlock) (recommended) or AdBGuard. <br/>
